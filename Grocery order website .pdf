@@ -1,0 +1,831 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 2581
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+235.8999999999999488 785.1970866141732586 Td
+(Project Report) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 742.6774015748030706 Td
+(Title of Project:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 711.4962992125983874 Td
+(Grocery order website ) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 667.559291338582625 Td
+(Name of the Innovator:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 636.3781889763779418 Td
+(Akshaya sunka) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 592.4411811023621794 Td
+(Start Date:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 561.2600787401574962 Td
+(11/02/2026) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 517.3230708661417339 Td
+(End Date:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 486.1419685039369369 Td
+(18/02/2026) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 442.2049606299212314 Td
+(Day 1: Empathise & Define) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 408.1892125984251152 Td
+(Step 1: Understanding the Need) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 362.8348818897637216 Td
+(Which problem am I trying to solve?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 331.6537795275589815 Td
+("Local shoppers and small-scale grocery vendors struggle with overly complex e-commerce) Tj
+T* (platforms that require account creation, have slow loading times, and lack a direct communication) Tj
+T* (channel for order confirmation.") Tj
+T* (The goal is to bridge the gap between a simple shopping list and a full-scale enterprise engine by) Tj
+T* (providing a lightweight, "no-database" solution that feels professional but acts instantaneously.) Tj
+T* () Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 209.7640157480313974 Td
+(Who is affected by this problem?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 178.5829133858267141 Td
+() Tj
+T* (The "Hurry-Up" Shopper: Users who want to restock 5-10 essential items in under 60 seconds) Tj
+T* (without remembering a password.) Tj
+T* (The Small Vendor: A local grocer who needs an online presence but doesn't have the budget or) Tj
+T* (technical skill to manage a complex SQL database or backend server.) Tj
+T* (The Mobile User: People shopping on-the-go who need a high-performance, "App-like" experience) Tj
+T* (on a mobile browser.) Tj
+T* () Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 2928
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(How did I find out about this?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 754.0159842519684616 Td
+(Observation, Online Research, AI Tools) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 710.0789763779526993 Td
+(Step 2: Problem Statement) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 678.8978740157480161 Td
+("How might we create a frictionless grocery ordering experience that captures delivery details and) Tj
+T* (product selections into a single email notification, eliminating the need for a backend while) Tj
+T* (maintaining data persistence for the user?") Tj
+T* () Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 588.1892125984251152 Td
+(Why is this problem important to solve?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 557.0081102362204319 Td
+() Tj
+T* (Reduced Friction: By using Web3Forms, the order goes straight to the vendor's inbox—no logging) Tj
+T* (into a dashboard required.) Tj
+T* (Reliability: LocalStorage ensures that if a user accidentally closes their tab, their milk and bread are) Tj
+T* (still in the cart when they return.) Tj
+T* (Development Speed: Using a "Backend-less" stack \(React + Tailwind + Web3Forms\) allows a) Tj
+T* (developer to go from concept to a live store in hours, not weeks.) Tj
+T* () Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 403.9372440944881077 Td
+(Take-home task insights:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 372.7561417322834245 Td
+() Tj
+T* (Insight A: The "Search" bar is the most used feature in grocery apps; it must be prominent.) Tj
+T* (Insight B: Users want to see the Grand Total update in real-time as they toggle quantities.) Tj
+T* (Insight C: "Delivery Time Preference" is a deal-breaker. If they can't choose a time, they won't) Tj
+T* (submit the form.) Tj
+T* () Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 250.8663779527557836 Td
+(Day 2: Ideate) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 216.8506299212597241 Td
+(Step 3: List at least 5 different solutions:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 185.6695275590550409 Td
+(1. WhatsApp-based order form system) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 155.9057480314959321 Td
+(2. Google Forms grocery ordering template) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 126.1419685039369369 Td
+(3. Vite -Fast development environment) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 96.3781889763778281 Td
+(4. Full-stack e-commerce website with backend) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 66.614409448818833 Td
+(5. React-based grocery store with cart and Web3Forms integration.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 1445
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Step 4: My favourite solution:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 754.0159842519684616 Td
+(React-based grocery store with cart and Web3Forms integration.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 710.0789763779526993 Td
+(Step 5: Why am I choosing this solution?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 678.8978740157480161 Td
+(No backend required) Tj
+T* () Tj
+T* (Affordable) Tj
+T* () Tj
+T* (Easy to deploy) Tj
+T* () Tj
+T* (Professional Ul) Tj
+T* () Tj
+T* (Scalable in future) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 510.2364566929133503 Td
+(Day 3: Prototype & Test) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 476.2207086614172908 Td
+(Step 6: What will my solution look like?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 445.0396062992125508 Td
+(A responsive grocery website where users:) Tj
+T* () Tj
+T* (Browse products by category) Tj
+T* () Tj
+T* (Search items) Tj
+T* () Tj
+T* (Add to cart) Tj
+T* () Tj
+T* (Update quantities) Tj
+T* () Tj
+T* (Enter delivery details) Tj
+T* () Tj
+T* (Submit order via Web3Forms) Tj
+T* () Tj
+T* (Receive order confirmation) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 182.8348818897636647 Td
+(What AI tools will I need?) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 1853
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Code generation) Tj
+T* () Tj
+T* (Ul design suggestions) Tj
+T* () Tj
+T* (Feature planning) Tj
+T* () Tj
+T* (Debugging support) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 647.7167716535432191 Td
+(Selected AI tools:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 616.5356692913385359 Td
+(1. ChatGPT) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 586.7718897637794271 Td
+(2. React.js -Frontend framework) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 557.0081102362204319 Td
+(3. Tailwind CSS -UI styling) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 527.2443307086614368 Td
+(4. Web3Forms -Form submission & email service) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 497.480551181102328 Td
+(5. Vite -Fast development environment) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 453.5435433070865656 Td
+(Step 7: Test - Getting Feedback) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 408.1892125984251152 Td
+(Who did I share my solution with?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 377.0081102362204319 Td
+(2 classmates 1 local store owner Self-testing on mobile and desktop) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 333.0711023622046696 Td
+(What works well:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 301.8899999999999864 Td
+(Smooth cart functionality) Tj
+T* () Tj
+T* (Clean Ul) Tj
+T* () Tj
+T* (Easy checkout process) Tj
+T* () Tj
+T* (No backend needed) Tj
+T* () Tj
+T* (Mobile responsive) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 133.2285826771652637 Td
+(What needs improvement:) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 2155
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Add product images) Tj
+T* () Tj
+T* (Add remove-from-cart button) Tj
+T* () Tj
+T* (Add payment gateway) Tj
+T* () Tj
+T* (Improve search filtering) Tj
+T* () Tj
+T* (Add admin inventory control) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 616.5356692913385359 Td
+(Day 4: Showcase) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 582.5199212598424765 Td
+(Step 8: Final Project Title:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 551.3388188976377933 Td
+(SmartCart -Simple Grocery Ordering System) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 507.4018110236219741 Td
+(1-Minute Pitch Summary:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 476.2207086614172908 Td
+(SmartCart is a lightweight grocery ordering website built using React and Tailwind CSS. It allows) Tj
+T* (customers to browse products, add items to a cart, and submit delivery details. Orders are sent) Tj
+T* (directly to the store via Web3Forms without requiring a backend. This makes it affordable and easy) Tj
+T* (for small businesses to go digital quickly.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 385.5120472440944468 Td
+(Step 9: Reflections) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 340.1577165354329964 Td
+(What did I enjoy the most?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 308.9766141732283131 Td
+(Designing the cart logic and seeing the order confirmation system work without a backend.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 265.0396062992125508 Td
+(What was my biggest challenge?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 233.8585039370077538 Td
+(Managing cart state and integrating Web3Forms correctly) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 189.9214960629919915 Td
+(Project Link:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 158.7403937007873083 Td
+(https://cart-grocer-easy.lovable.app) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R ]
+/Count 5
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 13 0 R
+/F2 14 0 R
+/F3 15 0 R
+/F4 16 0 R
+/F5 17 0 R
+/F6 18 0 R
+/F7 19 0 R
+/F8 20 0 R
+/F9 21 0 R
+/F10 22 0 R
+/F11 23 0 R
+/F12 24 0 R
+/F13 25 0 R
+/F14 26 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+27 0 obj
+<<
+/Producer (jsPDF 4.0.0)
+/CreationDate (D:20260218165404+05'30')
+>>
+endobj
+28 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 29
+0000000000 65535 f 
+0000011927 00000 n 
+0000013774 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002785 00000 n 
+0000002922 00000 n 
+0000005902 00000 n 
+0000006039 00000 n 
+0000007536 00000 n 
+0000007674 00000 n 
+0000009580 00000 n 
+0000009719 00000 n 
+0000012009 00000 n 
+0000012135 00000 n 
+0000012266 00000 n 
+0000012400 00000 n 
+0000012538 00000 n 
+0000012662 00000 n 
+0000012791 00000 n 
+0000012923 00000 n 
+0000013059 00000 n 
+0000013187 00000 n 
+0000013314 00000 n 
+0000013443 00000 n 
+0000013576 00000 n 
+0000013678 00000 n 
+0000014027 00000 n 
+0000014113 00000 n 
+trailer
+<<
+/Size 29
+/Root 28 0 R
+/Info 27 0 R
+/ID [ <DA35F00D5B261CCD07039FA958F8CE58> <DA35F00D5B261CCD07039FA958F8CE58> ]
+>>
+startxref
+14217
+%%EOF
